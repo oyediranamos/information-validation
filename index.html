@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+    </html>
+    <main>
+        <form>
+            <h2>Form validation</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <br>
+            <label for="age">Age:</label>
+            <input type="number" id="name" name="age" placeholder="Enter your age" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            <br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{10,14}" required>
+            <br>
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob" name="dob">
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender">
+                <option value="">--select--</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <h3>Marital status</h3>
+            <label for="Single">Single:</label>
+            <input type="radio" id="single" name="status" value="single">
+            <label for="Married">Married:</label>
+            <input type="radio" id="married" name="status" value="married">
+            <label for="Divorced">Divorced:</label>
+            <input type="radio" id="divored" name="status" value="divorced">
+            <br>
+            <h3>Hobbies</h3>
+            <label for="Reading">Reading:</label>
+            <input type="checkbox" id="reading" name="hobbies" value="reading">
+            <label for="Sleeping">Sleeping:</label>
+            <input type="checkbox" id="sleeping" name="hobbies" value="sleeping">
+            <label for="Travelling">Travelling:</label>
+            <input type="checkbox" id="travelling" name="hobbies" value="travelling">
+            <label for="Cooking">Cooking:</label>
+            <input type="checkbox" id="cooking" name="hobbies" value="cooking">
+            <br>
+            <label for="Message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+            <br>
+
+        </form>
+    </main>
